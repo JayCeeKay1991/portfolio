@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import PortfolioCard from '../components/PortfolioCard.vue'
-import { portfolioData } from '../data/portfolioData.js'
+import { portfolioData } from '../data/portfolioData'
 </script>
 
 <template>

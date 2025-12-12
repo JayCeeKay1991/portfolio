@@ -1,6 +1,20 @@
-const asset = (file) => new URL(`../assets/${file}`, import.meta.url).href
+type Thumbnail = {
+  src: string
+  height?: string
+  width?: string
+}
 
-export const portfolioData = [
+type PortfolioProject = {
+  title: string
+  description: string
+  year: string
+  stack: string[]
+  thumbnails?: Thumbnail[]
+}
+
+const asset = (file: string): string => new URL(`../assets/${file}`, import.meta.url).href
+
+export const portfolioData: PortfolioProject[] = [
   {
     title: 'Foosha',
     description: 'A foodsharing community app for mobile, and my first proper fullstack app.',
