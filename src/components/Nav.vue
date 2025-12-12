@@ -74,4 +74,10 @@ nav a:first-of-type {
     font-size: 12px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  nav {
+    font-size: 10px;
+  }
+}
 </style>
