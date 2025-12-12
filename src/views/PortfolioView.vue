@@ -71,4 +71,15 @@ import { portfolioData } from '../data/portfolioData'
   list-style: none;
   overflow: scroll;
 }
+
+@media screen and (max-width: 500px) {
+  .portfolio {
+    min-height: fit-content;
+    max-height: fit-content;
+  }
+
+  .sectionTitle {
+    font-size: 1rem;
+  }
+}
 </style>

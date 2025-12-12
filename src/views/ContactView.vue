@@ -52,4 +52,11 @@ const linkedinUrl = import.meta.env.VITE_LINKEDIN
 .contact a {
   color: var(--theme-blue);
 }
+
+@media screen and (max-width: 500px) {
+  .contact .section-inner {
+    font-size: 16px;
+    width: 80%;
+  }
+}
 </style>

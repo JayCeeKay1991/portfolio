@@ -75,4 +75,15 @@ p {
   border-radius: 20px;
   color: var(--theme-blue);
 }
+
+@media screen and (max-width: 500px) {
+  .card-wrapper {
+    transform: scale(0.7);
+    transform-origin: top left;
+  }
+
+  .details {
+    min-width: auto;
+  }
+}
 </style>

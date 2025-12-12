@@ -32,6 +32,7 @@
   display: flex;
   justify-content: center;
   margin-top: 10vh;
+  width: 100%;
 
   --dot-size: 2px;
   --dot-spacing: 140px;
@@ -63,4 +64,12 @@ background-image:
 .bold {
   font-weight: 600;
 }
+
+@media screen and (max-width: 500px) {
+  .about {
+    font-size: 16px;
+    width: 85%;
+  }
+}
+
 </style>

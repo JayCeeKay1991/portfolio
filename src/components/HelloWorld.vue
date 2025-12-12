@@ -23,10 +23,7 @@ header {
   width: 65%;
   height: 90vh;
   scroll-margin-top: 120px;
-}
-
-.hero {
-  margin: 0 5rem 0 0;
+  gap: 3rem;
 }
 
 header .wrapper {
@@ -67,5 +64,25 @@ h3 {
 .greetings h1,
 .greetings h3 {
   text-align: left;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    width: 90%;
+    gap: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .hero {
+    width: 300px;
+    height: 300px;
+  }
 }
 </style>

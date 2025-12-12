@@ -68,4 +68,10 @@ nav a {
 nav a:first-of-type {
   border: 0;
 }
+
+@media screen and (max-width: 500px) {
+  nav {
+    font-size: 12px;
+  }
+}
 </style>
