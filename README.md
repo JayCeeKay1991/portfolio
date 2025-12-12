@@ -4,6 +4,7 @@
 
 Introducing myself and some of my projects.
 Using Vue.js.
+The page is live on https://jayceekay1991.github.io/portfolio/.
 
 ## Project Setup
 
